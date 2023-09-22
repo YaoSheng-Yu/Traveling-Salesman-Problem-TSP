@@ -31,15 +31,11 @@ The output manifests:
    - Craft graphs that depict the most optimal or least favorable ratio scenarios for the TSP.
    - **Example Use:** To generate a worst-case scenario graph encompassing 500 vertices: `python3 generate_worst_best.py 2 500 -o ./data/graph_worst.txt`
 
-2. **Minimum Spanning Tree: `mst.py`**
+2. **Random Graph Generation: `generate_testcases.py`**
+   - Generate a standard graph with stochastic weight edges, ensuring it is undirected, interconnected, and respects the triangle inequality.
+   - **Example Use:** To create a graph containing 100 nodes: `python3 generate_testcases.py ./data/graph.txt 100`
+   - 
+3. **Minimum Spanning Tree: `mst.py`**
    - Compute the MST of a given graph and ascertain the corresponding TSP tour cost.
    - **Output:** Two lines - the first conveys the MST cost, while the second denotes the TSP tour cost.
    - **Example Use:** To process a graph and retrieve the MST and TSP costs: `python3 mst.py -i ./data/graph.txt -o ./data/output.txt`
-
-3. **Random Graph Generation: `generate_testcases.py`**
-   - Generate a standard graph with stochastic weight edges, ensuring it is undirected, interconnected, and respects the triangle inequality.
-   - **Example Use:** To create a graph containing 100 nodes: `python3 generate_testcases.py ./data/graph.txt 100`
-
-## Prerequisites: 
-
-All scripts are compatible with and necessitate Python 3.x.

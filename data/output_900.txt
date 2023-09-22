@@ -1,0 +1,2 @@
+MST cost: 10818
+TSP tour cost: 21401

@@ -1,4 +1,4 @@
-# Traveling Salesman Problem (TSP) & Kruskal's Algorithm
+# Traveling Salesman Problem (TSP) & Kruskal's Algorithm 👨‍💼
 
 ## Introduction:
 
